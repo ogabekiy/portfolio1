@@ -4,8 +4,8 @@ export async function sendMessageToAdmin(name, message) {
     // const [bot_token,setBotToken] = useState(import.meta.env.VITE_BOT_TOKEN)
     // const [admin,setAdmin] = useState(import.meta.env.VITE_ADMIN_ID)
 
-    const BOT_TOKEN = import.meta.env.VITE_BOT_TOKEN || process?.env?.VITE_BOT_TOKEN;
-    const CHAT_ID = import.meta.env.VITE_ADMIN_ID || process?.env?.VITE_ADMIN_ID;
+    const BOT_TOKEN = import.meta.env.VITE_BOT_TOKEN || process?.env.VITE_BOT_TOKEN;
+    const CHAT_ID = import.meta.env.VITE_ADMIN_ID || process?.env.VITE_ADMIN_ID;
     const text = `Ism: ${name}\nXabar: ${message}`;
     const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
   

@@ -4,7 +4,6 @@ import { sendMessageToAdmin } from "../Contact/bot";
 export default function Contact() {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
-  console.log(name,message)
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!name.trim() || !message.trim()) {
