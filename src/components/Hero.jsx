@@ -1,6 +1,7 @@
 import React from 'react';
 import golf from '../assets/golf.png';
 import savage from '../assets/savage.png';
+import { Ogabek } from '../../public';
 
 export default function Hero() {
   const handleScroll = () => {
@@ -45,7 +46,7 @@ export default function Hero() {
         <div className="relative w-[400px] h-[400px] rounded-full mx-auto overflow-hidden shadow-2xl transform hover:rotate-6 transition-transform duration-500">
           <img
             className="w-full h-full object-cover"
-            src={savage}
+            src={Ogabek}
             alt="Profile"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-transparent  to-transparent opacity-50 blur-2xl"></div>

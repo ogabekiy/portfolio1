@@ -11,7 +11,7 @@ export default function About() {
         <div className="w-full md:w-1/2 transform group-hover:scale-105 transition-transform duration-500">
           <img
             className="w-full h-[400px] rounded-r-xl object-cover shadow-2xl"
-            src="https://i.pinimg.com/736x/4c/2b/c2/4c2bc26c6966285794d26a3ccddf8cec.jpg"
+            src="https://i.pinimg.com/736x/3b/f7/75/3bf775d7f7795bd8fc3414387ecfd12e.jpg"
             alt="tyler"
           />
         </div>

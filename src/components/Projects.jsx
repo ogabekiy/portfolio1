@@ -6,16 +6,17 @@ import "swiper/css/pagination";
 import flags from '../assets/projects/flags.png'
 import norlight from '../assets/projects/norlight.png'
 import lc from '../assets/projects/lc.png'
-import chat from '../assets/projects/chat.png'
+import merc from '../assets/projects/merc.png'
 import store from '../assets/projects/store.png'
+import dalimjanov from '../assets/projects/afsona.png'
 
 const projectsData = [
   {
     id: 1,
-    img:flags,
-    title: "Country flags",
-    description: "Country informations with React and Tailwind CSS.",
-    link: "https://country-flags-17.netlify.app",
+    img:merc,
+    title: "Mercedes ",
+    description: "Mercedes ehtiyot qismlari sotadigan do'kon uchun (nestjs + tailwind)",
+    link: "https://www.hercules.uz/uz",
   },
   {
     id: 2,
@@ -33,10 +34,10 @@ const projectsData = [
   },
   {
     id: 4,
-    img: chat,
-    title: "Online Chat ",
-    description: "simpleonline chat with socket",
-    link: "https://github.com/ogabekiy/Online-chat",
+    img: dalimjanov,
+    title: "Dalimjanov uchun qilingan websayt",
+    description: "nextjs tailwin",
+    link: "https://dalimjanov.uz",
   },
   {
     id:5,
@@ -44,7 +45,14 @@ const projectsData = [
     title: 'Store',
     description:'another store with reactjs',
     link:'https://lesson13-store.netlify.app/',
-  }
+  },
+  {
+    id: 6,
+    img: lc,
+    title: "E-commerce market API",
+    description: "API with nest js and postgres",
+    link: "https://github.com/ogabekiy/final-exam-bcknd",
+  },
 ];
 
 export default function Projects() {
