@@ -1,5 +1,4 @@
 import React from 'react';
-import twentyone from '../assets/twentyone.png'
 export default function About() {
   return (
     <div id='about' className="container mx-auto w-full max-w-7xl px-5 py-16 mt-32">

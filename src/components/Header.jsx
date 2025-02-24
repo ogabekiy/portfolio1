@@ -12,15 +12,15 @@ export default function Header() {
   return (
     <div className='fixed top-0 w-full bg-white bg-opacity-60 backdrop-blur-md shadow-md z-50 px-6 py-4'>
       <div className='max-w-[1200px] w-full mx-auto flex justify-between items-center'>
-        <div>
-          <Link to="/">
-            <img
-              className='w-12 h-12 rounded-full transition-transform transform hover:scale-110'
-              src={opium}
-              alt="Logo"
-            />
-          </Link>
-        </div>
+      <div>
+  <Link to="/">
+    <img
+      className='w-12 h-12 animate-spin-slow rounded-full hover:scale-110'
+      src={opium}
+      alt="Logo"
+    />
+  </Link>
+</div>
 
         <nav className='flex gap-10'>
           {[

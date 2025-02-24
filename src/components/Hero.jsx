@@ -1,6 +1,4 @@
 import React from 'react';
-import golf from '../assets/golf.png';
-import savage from '../assets/savage.png';
 import { Ogabek } from '../../public';
 
 export default function Hero() {
