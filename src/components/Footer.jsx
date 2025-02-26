@@ -38,7 +38,7 @@ export default function Footer() {
       <hr className="border-t border-blue-500 my-6 w-4/5 mx-auto" />
 
       <div className="text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Og'abek | All Rights Reserved.
+        &copy; {new Date().getFullYear()} OGABEK | All Rights Reserved.
       </div>
     </footer>
   );
