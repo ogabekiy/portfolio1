@@ -14,6 +14,7 @@
     "flowbite": "^2.5.2",
     "grammy": "^1.33.0",
     "lucide-react": "^0.476.0",
+    "motion": "^12.4.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
