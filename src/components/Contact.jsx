@@ -9,18 +9,18 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!name.trim() || !message.trim()) {
-      alert("Iltimos, barcha maydonlarni to'ldiring.");
+      // alert("Iltimos, barcha /maydonlarni to'ldiring.");
       return;
     }
 
     try {
       await sendMessageToAdmin(name, message);
-      alert("Xabaringiz muvaffaqiyatli yuborildi!");
+      // alert("Xabaringiz muvaffaqiyatli yuborildi!");
       setName("");
       setMessage("");
     } catch (error) {
       console.error("Xato:", error);
-      alert("Xabarni yuborishda muammo yuz berdi. Keyinroq urinib ko'ring.");
+      // alert("Xabarni yuborishda muammo yuz berdi. Keyinroq urinib ko'ring.");
     }
   };
 
