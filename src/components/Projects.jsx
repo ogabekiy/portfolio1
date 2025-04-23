@@ -4,12 +4,12 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/pagination";
-import flags from '../assets/projects/flags.png';
 import norlight from '../assets/projects/norlight.png';
 import lc from '../assets/projects/lc.png';
 import merc from '../assets/projects/merc.png';
 import store from '../assets/projects/store.png';
 import dalimjanov from '../assets/projects/afsona.png';
+import safionix from '../assets/projects/safionix.png';
 
 const projectsData = [
   { id: 1, img: merc, title: "Mercedes", description: "Mercedes ehtiyot qismlari sotadigan do'kon uchun (nestjs + tailwind)", link: "https://www.hercules.uz/uz" },
@@ -18,6 +18,7 @@ const projectsData = [
   { id: 4, img: dalimjanov, title: "Dalimjanov uchun qilingan websayt", description: "nextjs tailwind", link: "https://dalimjanov.uz" },
   { id: 5, img: store, title: "Store", description: "another store with reactjs", link: "https://lesson13-store.netlify.app/" },
   { id: 6, img: lc, title: "E-commerce market API", description: "API with nest js and postgres", link: "https://github.com/ogabekiy/final-exam-bcknd" },
+  { id: 7, img: safionix, title: "Safionix", description: "Visiting web site for Software Company", link: "https://safionix-kappa.vercel.app/en" },
 ];
 
 export default function Projects() {
