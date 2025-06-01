@@ -10,9 +10,13 @@ import merc from '../assets/projects/merc.png';
 import store from '../assets/projects/store.png';
 import dalimjanov from '../assets/projects/afsona.png';
 import safionix from '../assets/projects/safionix.png';
+import farzzgroup from '../assets/projects/farz.png';
+import ninth from '../assets/projects/ninth.png';
 
 const projectsData = [
   { id: 1, img: merc, title: "Mercedes", description: "Mercedes ehtiyot qismlari sotadigan do'kon uchun (nestjs + tailwind)", link: "https://www.hercules.uz/uz" },
+  {id: 8, img: farzzgroup, title: "Real Estate Company", description: "A responsive and multilingual (uz/ru) website for a real estate company,integrated a Telegram bot to send inquiries directly to the manager ⚡️", link: "https://www.farzzgroup.com/ru"},
+  {id: 9, img: ninth, title: "Music Production", description: "A modern, responsive website for a music production studio, built with Next.js and Tailwind CSS.", link: "https://theninthplanet.vercel.app/"},
   { id: 2, img: norlight, title: "Norlight Online Shop", description: "Online shop with React js", link: "https://norlight16.netlify.app/" },
   { id: 3, img: lc, title: "Learning Centre API", description: "API for learning centre with nestjs", link: "https://github.com/ogabekiy/learning-centre" },
   { id: 4, img: dalimjanov, title: "Dalimjanov uchun qilingan websayt", description: "nextjs tailwind", link: "https://dalimjanov.uz" },
