@@ -17,12 +17,13 @@ const projectsData = [
   { id: 1, img: merc, title: "Mercedes", description: "Mercedes ehtiyot qismlari sotadigan do'kon uchun (nestjs + tailwind)", link: "https://www.hercules.uz/uz" },
   {id: 8, img: farzzgroup, title: "Real Estate Company", description: "A responsive and multilingual (uz/ru) website for a real estate company,integrated a Telegram bot to send inquiries directly to the manager ⚡️", link: "https://www.farzzgroup.com/ru"},
   {id: 9, img: ninth, title: "Music Production", description: "A modern, responsive website for a music production studio, built with Next.js and Tailwind CSS.", link: "https://www.theninthplanet.uz/"},
+  { id: 7, img: safionix, title: "Safionix", description: "Visiting web site for Software Company", link: "https://safionix.com" },
   { id: 2, img: norlight, title: "Norlight Online Shop", description: "Online shop with React js", link: "https://norlight16.netlify.app/" },
   { id: 3, img: lc, title: "Learning Centre API", description: "API for learning centre with nestjs", link: "https://github.com/ogabekiy/learning-centre" },
   { id: 4, img: dalimjanov, title: "Dalimjanov uchun qilingan websayt", description: "nextjs tailwind", link: "https://dalimjanov.uz" },
   { id: 5, img: store, title: "Store", description: "another store with reactjs", link: "https://lesson13-store.netlify.app/" },
   { id: 6, img: lc, title: "E-commerce market API", description: "API with nest js and postgres", link: "https://github.com/ogabekiy/final-exam-bcknd" },
-  { id: 7, img: safionix, title: "Safionix", description: "Visiting web site for Software Company", link: "https://safionix-kappa.vercel.app/en" },
+  
 ];
 
 export default function Projects() {
