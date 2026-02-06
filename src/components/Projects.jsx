@@ -11,6 +11,9 @@ import farzzgroup from "../assets/projects/farz.png";
 import ninthh from "../assets/projects/ninth.png";
 import stilniydoctor from "../assets/projects/stilniydoctor.png";
 import sdadmin from "../assets/projects/sdadmin.png";
+import showqin from "../assets/projects/showqin.png"
+import cognilabs from "../assets/projects/cognilabs.png"
+import quiz from "../assets/projects/quiz.png"
 
 const projectsData = [
   {
@@ -62,7 +65,7 @@ const projectsData = [
   },
   {
     id: 2,
-    img: norlight,
+    img: quiz,
     title: "Quiz App",
     description:
       "A dynamic quiz app that lets users test their knowledge with interactive questions, real-time scoring, and a clean, responsive design.",
@@ -99,6 +102,20 @@ const projectsData = [
       "REST API for an e-commerce platform built with NestJS + PostgreSQL.",
     link: "https://github.com/ogabekiy/final-exam-bcknd",
   },
+  {
+    id: 11,
+    img: showqin,
+    title: "Showqin | Ententainment Media",
+    description: "Designed and built the backend and admin panel for a media platform.Implemented content management, user roles, analytics, and moderation tools.Project is actively maintained and scaled for a real media company.",
+    link: "https://showqin.com"
+  },
+  {
+    id: 12,
+    img: cognilabs,
+    title: "Cognilabs Software Solutions",
+    description: "Designed and developed a modern, high-performance website with clean UI and responsive layouts. Focused on smooth UX, fast load times, and SEO-friendly structure.Built reusable components and scalable page architecture using Next.js.",
+    link: "https://cognilabs.org"
+  }
 ];
 
 export default function Projects() {
