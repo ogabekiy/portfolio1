@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Ogabek } from '../../public';
+import { Lightning, Ogabek } from '../../public';
 
 export default function Hero() {
   const handleScroll = () => {
@@ -84,13 +84,16 @@ export default function Hero() {
           variants={textVariants}
           className="flex items-center justify-center md:justify-start mb-5 gap-2"
         >
-          <motion.img
-            src="https://42.uz/_next/image?url=%2Fanimated%2FZapIcon-64.gif&w=32&q=75"
-            alt="Zap"
-            className="w-8 h-8"
-            whileHover={{ scale: 1.2, rotate: 20 }}
-            transition={{ duration: 0.3 }}
-          />
+           <motion.video
+      src={Lightning}
+      className="w-8 h-8 object-contain"
+      autoPlay
+      loop
+      muted
+      playsInline
+      whileHover={{ scale: 1.2, rotate: 20 }}
+      transition={{ duration: 0.3 }}
+    />
           <p className="text-lg font-medium text-gray-700">Hi, my name is</p>
         </motion.div>
 
